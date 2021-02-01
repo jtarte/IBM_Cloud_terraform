@@ -12,7 +12,7 @@ This script creates :
 
 ## Execute the scripts
 
-create a `.tfvars` file with your values of varailbes (if your are not using the default walues).
+Create a `terraform.tfvars` file with your values of variables (if your are not using the default walues).
 
 Init your terraform env
 ``` 
