@@ -103,7 +103,6 @@ variable "template_catalog"{
 variable "bastion_password"{
   type        = string
   description = "password of the bastion vm"
-  default     = "Public Catalog" 
 }
 
 variable "bastion_ip"{
