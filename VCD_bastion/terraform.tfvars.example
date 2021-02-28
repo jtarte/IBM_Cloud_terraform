@@ -1,0 +1,43 @@
+vcd_user="your VCD userid"
+
+vcd_password="your VCD password"
+
+vcd_org="Your VCD  org"
+
+vcd_url="https://fradir01.vmware-solutions.cloud.ibm.com/api, thisexample is for VCD on Frankfurt"
+
+vcd_vcd = "your VCD ID"
+
+edge_gateway = "name of your edge gateway"
+
+rhel_key="RHEL subscription key provided with your VMware shared service"
+
+ocp_cluster= "id of your ocp cluster "
+
+ocp_version= "version of OCP cluster "
+    
+domain= "your domain "
+
+lb_ip= "external IP where the load balancer in fornt of OCP cluster will be exposed"
+
+terraform_ocp_repo= "https://github.com/slipsibm/terraform-openshift4-vcd,  the git repo where the terroform for provising UPI of OCP"
+
+bastion_ip = "external IP where the bastion vm will be exposed"
+
+external_net = "fra04-w02-tenant-external"
+
+private_service_net= "fra04-w02-service01"
+
+private_service_access_ip= "Y.Y.Y.B"
+
+ocp_console_ip = "the IP adress of OCP console"
+
+bastion_password = "ICPpassw0rd!, a password to acces to bastion VM (use only one time)"
+
+outbound_ip ="Z.Z.Z.A the outbound IP of IBM cloud public network"
+
+routed_net = "Name of the routed net "
+
+internal_lb_ip = "internal IP on routed net of laoad balancer"
+
+pull_secret_file = "OCP pull secret file"
