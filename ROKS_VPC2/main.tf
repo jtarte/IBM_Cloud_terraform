@@ -28,4 +28,8 @@ module "cluster_and_workerpool" {
   worker_pool_name = var.worker_pool_name
   cos_instance_crn = module.cos.cos_instance_crn
   entitlement = var.entitlement
+
+  depends_on = [
+    module.cos.cos_instance_crn
+  ]
 }
