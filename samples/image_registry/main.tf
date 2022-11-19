@@ -9,7 +9,7 @@
 ###############################################################################
 
 module "roks" {
-  source = "../../registry"
+  source = "../../image_registry"
   resource_group = var.resource_group
   namespace = var.namespace
   user = var.user
