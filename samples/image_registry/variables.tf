@@ -43,16 +43,11 @@ variable "retain_untagged"{
     default= false
 }
 
-###############################################################################
-# users & roles
-###############################################################################
 variable "user"{
-    description = "tab of users to grant on image registry"
     default = []
 }
 
 variable "role" {
-    description = "tab of privileges associated to an users"
     default = []
 }
 

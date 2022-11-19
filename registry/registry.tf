@@ -24,7 +24,7 @@ resource "ibm_cr_retention_policy" "cr_retention_policy" {
     images_per_repo = var.image_per_repo
     retain_untagged = var.retain_untagged
 }
-
+# define privilege policy on this registry
 resource "ibm_iam_user_policy" "policy" {
     for_each = toset(var.user)
     ibm_id = each.value
