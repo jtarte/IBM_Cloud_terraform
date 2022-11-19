@@ -8,7 +8,7 @@
 # email: jerome.tarte@fr.ibm.com
 ###############################################################################
 
-module "roks" {
+module "image_registry" {
   source = "../../image_registry"
   resource_group = var.resource_group
   namespace = var.namespace

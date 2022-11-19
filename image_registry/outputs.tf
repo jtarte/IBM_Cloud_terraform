@@ -8,5 +8,5 @@
 
 # ID of the created COS instance
 output "ibm_cr_namespace" {
-  value = ibm_cr_namespace.cr_namespace
+  value = ibm_cr_namespace.cr_namespace.id
 }

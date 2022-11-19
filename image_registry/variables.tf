@@ -6,11 +6,6 @@
 # email: jerome.tarte@fr.ibm.com
 ###############################################################################
 
-# API KEY to interact with IBM Cloud 
-variable "ibmcloud_api_key" {
-    default = "" 
-}
-
 # resource group
 variable "resource_group" {}
 
