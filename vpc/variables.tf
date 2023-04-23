@@ -9,7 +9,6 @@
 variable "vpc_name" {
     description = " The name of the vpc."
     type = string
-    default = null
 }
 
 variable "existing_vpc_id"{
@@ -19,7 +18,7 @@ variable "existing_vpc_id"{
 }
 
 variable "resource_group_id" {
-    description = "the resource group associated with this instance"
+    description = "the resource group id associated with this instance"
     type = string
     default = "default"
 }
@@ -36,11 +35,13 @@ variable "zone_number"{
 
 variable "region" {
     description = "The region where the VPC will be deployed"
-
 }
 
 variable "ip_block" {
     description= " the ip block used by the subnet of the VPC"
     default=["10.243.0.0/24","10.243.64.0/24","10.243.128.0/24"]
+}
 
+variable "tags" {
+  default = []
 }

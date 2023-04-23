@@ -18,3 +18,13 @@ variable "service_offering" {
 variable "plan" {
     default = "standard"
 }
+
+variable "resource_group_id" {
+    description = "the resource group id associated with this instance"
+    type = string
+    default = "default"
+}
+
+variable "tags" {
+  default = []
+}
